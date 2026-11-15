@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="151.062" tests="44" errors="0" skipped="10" failures="5">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\workspace\Oct2026Batch\EcommerceHubV9\target\test-classes;C:\workspace\Oct2026Batch\EcommerceHubV9\target\classes;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-java\4.51.0\selenium-java-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\manoj\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.51.0\selenium-chrome-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.51.0\selenium-chromium-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.51.0\selenium-devtools-latest-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.51.0\selenium-devtools-v153-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.51.0\selenium-devtools-v154-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.51.0\selenium-devtools-v155-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.51.0\selenium-edge-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.51.0\selenium-firefox-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.51.0\selenium-ie-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\manoj\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\manoj\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\manoj\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\manoj\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\manoj\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.51.0\selenium-safari-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\manoj\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\manoj\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\manoj\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\manoj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\manoj\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\manoj\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\manoj\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\manoj\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\manoj\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\manoj\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\manoj\.m2\repository\org\apache\poi\poi\6.0.0\poi-6.0.0.jar;C:\Users\manoj\.m2\repository\commons-codec\commons-codec\1.23.0\commons-codec-1.23.0.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-collections4\4.6.0\commons-collections4-4.6.0.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\manoj\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\manoj\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\manoj\.m2\repository\org\apache\poi\poi-ooxml\6.0.0\poi-ooxml-6.0.0.jar;C:\Users\manoj\.m2\repository\org\apache\poi\poi-ooxml-lite\6.0.0\poi-ooxml-lite-6.0.0.jar;C:\Users\manoj\.m2\repository\org\apache\xmlbeans\xmlbeans\5.4.1\xmlbeans-5.4.1.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\manoj\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\manoj\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\manoj\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\manoj\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\manoj\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\manoj\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.26.1\log4j-slf4j-impl-2.26.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\manoj\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\manoj\AppData\Local\Temp\surefire12026462523147912086\surefirebooter-20261115095625599_3.jar C:\Users\manoj\AppData\Local\Temp\surefire12026462523147912086 2026-11-15T09-56-25_486-jvmRun1 surefire-20261115095625599_1tmp surefire_0-20261115095625599_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\workspace\Oct2026Batch\EcommerceHubV9\target\test-classes;C:\workspace\Oct2026Batch\EcommerceHubV9\target\classes;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-java\4.51.0\selenium-java-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\manoj\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.51.0\selenium-chrome-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.51.0\selenium-chromium-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.51.0\selenium-devtools-latest-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.51.0\selenium-devtools-v153-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.51.0\selenium-devtools-v154-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.51.0\selenium-devtools-v155-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.51.0\selenium-edge-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.51.0\selenium-firefox-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.51.0\selenium-ie-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\manoj\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\manoj\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\manoj\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\manoj\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\manoj\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\manoj\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.51.0\selenium-safari-driver-4.51.0.jar;C:\Users\manoj\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\manoj\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\manoj\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\manoj\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\manoj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\manoj\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\manoj\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\manoj\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\manoj\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\manoj\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\manoj\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\manoj\.m2\repository\org\apache\poi\poi\6.0.0\poi-6.0.0.jar;C:\Users\manoj\.m2\repository\commons-codec\commons-codec\1.23.0\commons-codec-1.23.0.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-collections4\4.6.0\commons-collections4-4.6.0.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\manoj\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\manoj\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\manoj\.m2\repository\org\apache\poi\poi-ooxml\6.0.0\poi-ooxml-6.0.0.jar;C:\Users\manoj\.m2\repository\org\apache\poi\poi-ooxml-lite\6.0.0\poi-ooxml-lite-6.0.0.jar;C:\Users\manoj\.m2\repository\org\apache\xmlbeans\xmlbeans\5.4.1\xmlbeans-5.4.1.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\manoj\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\manoj\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\manoj\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\manoj\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\manoj\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\manoj\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\manoj\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.26.1\log4j-slf4j-impl-2.26.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\manoj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Users\manoj\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\workspace\Oct2026Batch\EcommerceHubV9"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\manoj\AppData\Local\Temp\surefire12026462523147912086\surefirebooter-20261115095625599_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.4.1+1-LTS"/>
+    <property name="user.name" value="manoj"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.4.1+1"/>
+    <property name="localRepository" value="C:\Users\manoj\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\manoj\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.4.1"/>
+    <property name="user.dir" value="C:\workspace\Oct2026Batch\EcommerceHubV9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\manoj\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/manoj/Downloads/eclipse-java-2026-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin/server;C:/Users/manoj/Downloads/eclipse-java-2026-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-25.0.5\bin;C:\jdk-25.0.5\bin;C:\Program Files\apache-maven-3.10.0-bin\apache-maven-3.10.0\bin;C:\Program Files\Git\cmd;C:\Users\manoj\AppData\Local\Microsoft\WindowsApps;;C:\Users\manoj\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.4.1+1-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.051">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J(W): Ignoring binding found at [jar:file:/C:/Users/manoj/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.26.1/log4j-slf4j-impl-2.26.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2026-11-15T14:56:26.430118200Z main INFO Starting configuration XmlConfiguration[location=C:\workspace\Oct2026Batch\EcommerceHubV9\target\test-classes\Log4j2.xml, lastModified=2026-11-15T02:22:56.442Z]...
+2026-11-15T14:56:26.432118300Z main INFO Configuration XmlConfiguration[location=C:\workspace\Oct2026Batch\EcommerceHubV9\target\test-classes\Log4j2.xml, lastModified=2026-11-15T02:22:56.442Z] started.
+2026-11-15T14:56:26.434118800Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@534a5a98...
+2026-11-15T14:56:26.435118800Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@534a5a98 stopped.
+Nov 15, 2026 9:56:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.015">
+    <system-err><![CDATA[Nov 15, 2026 9:56:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin" classname="testCases.TC02_Login" time="0.639"/>
+  <testcase name="testLogin" classname="testCases.TC02_Login" time="0.229"/>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login2_DataDriven" time="0.667">
+    <system-err><![CDATA[Nov 15, 2026 9:56:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login2_DataDriven" time="0.971"/>
+  <testcase name="testLogin[parurajeshmail@gmail.com, Test12](2)" classname="testCases.TC02_Login2_DataDriven" time="1.653"/>
+  <testcase name="testLogin[parurajeshmail@gmail.com, Test12](2)" classname="testCases.TC02_Login2_DataDriven" time="1.238"/>
+  <testcase name="testLogin[nirmala.kalluru24@gmail.com, test29](3)" classname="testCases.TC02_Login2_DataDriven" time="2.542"/>
+  <testcase name="testLogin[nirmala.kalluru24@gmail.com, test29](3)" classname="testCases.TC02_Login2_DataDriven" time="1.327">
+    <system-err><![CDATA[Nov 15, 2026 9:56:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login2_DataDriven" time="0.529"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login2_DataDriven" time="0.783"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login2_DataDriven" time="1.006"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login2_DataDriven" time="1.286"/>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (503, 984)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f490e18f0bc7122024012082f61f9f7b, clickElement {id=f.29B86A64F5DF8490C30167FA1ED11A13.d.30D50A38778E6F49BE556E29E742F36D.e.117}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 17272, ms:edgeOptions: {debuggerAddress: localhost:61010}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61010/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f490e18f0bc7122024012082f61f9f7b)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: f490e18f0bc7122024012082f61f9f7b"/>
+  </testcase>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (503, 962)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f490e18f0bc7122024012082f61f9f7b, clickElement {id=f.29B86A64F5DF8490C30167FA1ED11A13.d.F3398CFAABB2B8274C0875B0F1EEFB4C.e.139}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 17272, ms:edgeOptions: {debuggerAddress: localhost:61010}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61010/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f490e18f0bc7122024012082f61f9f7b)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: f490e18f0bc7122024012082f61f9f7b"/>
+  </testcase>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="0.032"/>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="4.371">
+    <failure message="element click intercepted: Element is not clickable at point (503, 969)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f490e18f0bc7122024012082f61f9f7b, clickElement {id=f.29B86A64F5DF8490C30167FA1ED11A13.d.E923021ADC676C193851188B36A6CF9D.e.161}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 17272, ms:edgeOptions: {debuggerAddress: localhost:61010}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61010/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f490e18f0bc7122024012082f61f9f7b)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: f490e18f0bc7122024012082f61f9f7b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (503, 969)
+  (Session info: MicrosoftEdge=157.0.4341.46)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f490e18f0bc7122024012082f61f9f7b, clickElement {id=f.29B86A64F5DF8490C30167FA1ED11A13.d.E923021ADC676C193851188B36A6CF9D.e.161}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 17272, ms:edgeOptions: {debuggerAddress: localhost:61010}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61010/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f490e18f0bc7122024012082f61f9f7b)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: f490e18f0bc7122024012082f61f9f7b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at pageObjects.CategoryPage.selectHPProduct(CategoryPage.java:80)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="3.032">
+    <system-err><![CDATA[Nov 15, 2026 9:57:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (503, 976)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [9803e4dcbed8ff0b4bae16a79a7ed548, clickElement {id=f.CB7D6214F29C567DC82C8C936E91256C.d.F71B564D8DD83683D3F32E354411ABA7.e.111}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 11432, ms:edgeOptions: {debuggerAddress: localhost:54643}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54643/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (9803e4dcbed8ff0b4bae16a79a7ed548)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 9803e4dcbed8ff0b4bae16a79a7ed548"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (503, 970)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [9803e4dcbed8ff0b4bae16a79a7ed548, clickElement {id=f.CB7D6214F29C567DC82C8C936E91256C.d.33ABC5E138814E4CB0B60607B70BBF74.e.135}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 11432, ms:edgeOptions: {debuggerAddress: localhost:54643}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54643/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (9803e4dcbed8ff0b4bae16a79a7ed548)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 9803e4dcbed8ff0b4bae16a79a7ed548"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="4.449">
+    <failure message="element click intercepted: Element is not clickable at point (503, 944)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [9803e4dcbed8ff0b4bae16a79a7ed548, clickElement {id=f.CB7D6214F29C567DC82C8C936E91256C.d.036CC03BF6AA9E1641DF090FB99B57E8.e.157}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 11432, ms:edgeOptions: {debuggerAddress: localhost:54643}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54643/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (9803e4dcbed8ff0b4bae16a79a7ed548)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 9803e4dcbed8ff0b4bae16a79a7ed548" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (503, 944)
+  (Session info: MicrosoftEdge=157.0.4341.46)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9803e4dcbed8ff0b4bae16a79a7ed548, clickElement {id=f.CB7D6214F29C567DC82C8C936E91256C.d.036CC03BF6AA9E1641DF090FB99B57E8.e.157}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 11432, ms:edgeOptions: {debuggerAddress: localhost:54643}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54643/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9803e4dcbed8ff0b4bae16a79a7ed548)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 9803e4dcbed8ff0b4bae16a79a7ed548
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at pageObjects.CategoryPage.selectHPProduct(CategoryPage.java:80)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="1.6"/>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()=&apos;HP LP3065&apos;]&#10;(tried for 20 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 44440, ms:edgeOptions: {debuggerAddress: localhost:49937}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49937/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 99968d25fed25e1284af00c218ece5a9"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()=&apos;HP LP3065&apos;]&#10;(tried for 20 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 44440, ms:edgeOptions: {debuggerAddress: localhost:49937}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49937/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 99968d25fed25e1284af00c218ece5a9"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="9.524">
+    <failure message="Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()=&apos;HP LP3065&apos;]&#10;(tried for 20 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 44440, ms:edgeOptions: {debuggerAddress: localhost:49937}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49937/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 99968d25fed25e1284af00c218ece5a9" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()='HP LP3065']
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 44440, ms:edgeOptions: {debuggerAddress: localhost:49937}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49937/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99968d25fed25e1284af00c218ece5a9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at pageObjects.CategoryPage.openLaptopCategoryPage(CategoryPage.java:64)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="2.208">
+    <system-err><![CDATA[Nov 15, 2026 9:57:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="3.606">
+    <system-err><![CDATA[Nov 15, 2026 9:58:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testCartQuantityAndRemove" classname="testCases.TC07_CartQuantityAndRemove" time="0.0">
+    <skipped message="Cart quantity field was not visible. expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="testCartQuantityAndRemove" classname="testCases.TC07_CartQuantityAndRemove" time="0.0">
+    <skipped message="Cart quantity field was not visible. expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="testCartQuantityAndRemove" classname="testCases.TC07_CartQuantityAndRemove" time="11.472">
+    <failure message="Cart quantity field was not visible. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Cart quantity field was not visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC07_CartQuantityAndRemove.testCartQuantityAndRemove(TC07_CartQuantityAndRemove.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+  </testcase>
+  <testcase name="testCartQuantityAndRemove" classname="testCases.TC07_CartQuantityAndRemove" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (503, 989)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f2ff28dcea19b179736b0d640ce4a94d, clickElement {id=f.CBA3092B95687EDB6DA6857CD10517D4.d.54509B4783A9FCCED1F6908F9B5B9E44.e.112}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 42708, ms:edgeOptions: {debuggerAddress: localhost:57807}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57807/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f2ff28dcea19b179736b0d640ce4a94d)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: f2ff28dcea19b179736b0d640ce4a94d"/>
+    <system-err><![CDATA[Nov 15, 2026 9:58:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testCartQuantityAndRemove" classname="testCases.TC07_CartQuantityAndRemove" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (503, 982)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f2ff28dcea19b179736b0d640ce4a94d, clickElement {id=f.CBA3092B95687EDB6DA6857CD10517D4.d.368200E85E3DF3A5AF58DCE77DAEA762.e.134}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 42708, ms:edgeOptions: {debuggerAddress: localhost:57807}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57807/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f2ff28dcea19b179736b0d640ce4a94d)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: f2ff28dcea19b179736b0d640ce4a94d"/>
+  </testcase>
+  <testcase name="testCartQuantityAndRemove" classname="testCases.TC07_CartQuantityAndRemove" time="4.264">
+    <failure message="element click intercepted: Element is not clickable at point (503, 984)&#10;  (Session info: MicrosoftEdge=157.0.4341.46)&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f2ff28dcea19b179736b0d640ce4a94d, clickElement {id=f.CBA3092B95687EDB6DA6857CD10517D4.d.0B818EBC12B9E5F7E98C9D2B7CC31AA2.e.156}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 42708, ms:edgeOptions: {debuggerAddress: localhost:57807}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57807/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f2ff28dcea19b179736b0d640ce4a94d)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: f2ff28dcea19b179736b0d640ce4a94d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (503, 984)
+  (Session info: MicrosoftEdge=157.0.4341.46)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2ff28dcea19b179736b0d640ce4a94d, clickElement {id=f.CBA3092B95687EDB6DA6857CD10517D4.d.0B818EBC12B9E5F7E98C9D2B7CC31AA2.e.156}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 42708, ms:edgeOptions: {debuggerAddress: localhost:57807}, msedge: {msedgedriverVersion: 157.0.4341.60 (fbcb2989a6c6..., userDataDir: C:\Users\manoj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57807/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f2ff28dcea19b179736b0d640ce4a94d)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: f2ff28dcea19b179736b0d640ce4a94d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at pageObjects.CategoryPage.selectHPProduct(CategoryPage.java:80)
+	at testCases.TC07_CartQuantityAndRemove.testCartQuantityAndRemove(TC07_CartQuantityAndRemove.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+  </testcase>
+  <testcase name="testAffiliateValidation" classname="testCases.TC08_AffiliateValidation" time="3.236"/>
+  <testcase name="testAffiliateValidation" classname="testCases.TC08_AffiliateValidation" time="3.6">
+    <system-err><![CDATA[Nov 15, 2026 9:58:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin[wronguser@mail.com, wrongpassword](1)" classname="testCases.TC09_InvalidLogin" time="0.572"/>
+  <testcase name="testInvalidLogin[wronguser@mail.com, wrongpassword](1)" classname="testCases.TC09_InvalidLogin" time="0.692">
+    <system-err><![CDATA[Nov 15, 2026 9:58:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin[mownika0304@gmail.com, WrongPassword123](2)" classname="testCases.TC09_InvalidLogin" time="0.457"/>
+  <testcase name="testInvalidLogin[mownika0304@gmail.com, WrongPassword123](2)" classname="testCases.TC09_InvalidLogin" time="0.583"/>
+  <testcase name="testInvalidLogin[invalid@domain.com, ](3)" classname="testCases.TC09_InvalidLogin" time="0.384"/>
+  <testcase name="testInvalidLogin[invalid@domain.com, ](3)" classname="testCases.TC09_InvalidLogin" time="0.512"/>
+  <testcase name="testInvalidLogin[, Test123@](4)" classname="testCases.TC09_InvalidLogin" time="0.426"/>
+  <testcase name="testInvalidLogin[, Test123@](4)" classname="testCases.TC09_InvalidLogin" time="0.514"/>
+</testsuite>
